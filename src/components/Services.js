@@ -1,7 +1,7 @@
 import Title from "./Title";
 import { services } from "../data";
 import Service from "./Service";
-import service from "studio/src/service";
+
 const Services = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const Services = () => {
         <Title title="our" subTitle="services" />
 
         <div className="section-center services-center">
-          {services.map(() => {
+          {services.map((service) => {
             return <Service key={service.id} {...service} />;
           })}
         </div>
