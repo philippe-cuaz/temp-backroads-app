@@ -1,7 +1,7 @@
 import Title from "./Title";
 import Tour from "./Tour";
 import { tours } from "../data";
-import { toBeRequired } from "@testing-library/jest-dom/dist/matchers";
+
 const Tours = () => {
   return (
     <section className="section" id="tours">
